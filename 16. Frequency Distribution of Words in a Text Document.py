@@ -1,3 +1,11 @@
+16. Scenario: You are working on a text analysis project and need to determine the frequency
+distribution of words in a given text document. You have a text document named "sample_text.txt"
+containing a paragraph of text. Your task is to develop a Python program that reads the text document,
+processes the text, and generates a frequency distribution of the words.
+
+Question: How would you develop a Python program to calculate the frequency distribution of words
+in a text document?
+
 from collections import Counter
 
 text = open("sample_text.txt", "r").read().lower()
