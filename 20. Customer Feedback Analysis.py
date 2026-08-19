@@ -1,3 +1,20 @@
+20. Scenario: You are a data analyst working for a marketing research company. Your team has
+collected a large dataset containing customer feedback from various social media platforms. The
+dataset consists of thousands of text entries, and your task is to develop a Python program to analyze
+the frequency distribution of words in this dataset. Your program should be able to perform the
+following tasks:
+• Load the dataset from a CSV file (data.csv) containing a single column named "feedback" with
+each row representing a customer comment.
+• Preprocess the text data by removing punctuation, converting all text to lowercase, and
+eliminating any stop words (common words like "the," "and," "is," etc. that don't carry
+significant meaning).
+• Calculate the frequency distribution of words in the preprocessed dataset.
+• Display the top N most frequent words and their corresponding frequencies, where N is
+provided as user input.
+• Plot a bar graph to visualize the top N most frequent words and their frequencies.
+Question: Create a Python program that fulfills these requirements and helps your team gain insights
+from the customer feedback data.
+    
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
