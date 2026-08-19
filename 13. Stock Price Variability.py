@@ -1,3 +1,7 @@
+13. Scenario: You are a data analyst working for a finance company. Your team is interested in
+analyzing the variability of stock prices for a particular company over a certain period. The company's
+stock data includes the closing prices for each trading day of the specified period.
+
 import pandas as pd
 import numpy as np
 
